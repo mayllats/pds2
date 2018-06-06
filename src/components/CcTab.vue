@@ -12,7 +12,14 @@
 </template>
 
 <script>
-export default {};
+export default {
+    el: '#example-3',
+        methods: {
+            function (seleciona){
+                
+        }
+    }
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

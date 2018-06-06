@@ -3,7 +3,9 @@
     <cc-nav></cc-nav>
     <cc-page-title></cc-page-title>
     <cc-tab></cc-tab>
+    <cc-btn></cc-btn>
     <cc-form-cliente></cc-form-cliente>
+    <cc-client-list></cc-client-list>
 
   </div>
 </template>
@@ -13,11 +15,13 @@ import CcNav from './components/CcNav'
 import CcTab from './components/CcTab'
 import CcFormCliente from './components/CcFormCliente'
 import CcPageTitle from './components/CcPageTitle'
+import CcClientList from './components/CcClientList'
+import CcBtn from './components/CcBtn'
 
 export default {
   name: 'ecommerceComponent',
   components:{
-    CcNav, CcTab, CcFormCliente, CcPageTitle
+    CcNav, CcTab,CcBtn, CcFormCliente, CcPageTitle, CcClientList
   }
 }
 </script>
